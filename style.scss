@@ -110,7 +110,20 @@
                 font-size: 1.6rem;
                 background-color: #F99417;
                 color: #FFF;
+                opacity: 0;
+                animation: teste 500ms forwards;
+                transition: all 0.5s;
             }            
+
+            @keyframes teste {
+                from {
+                    opacity: 0;
+                }
+
+                to {
+                    opacity: 1;
+                }
+            }
         }
     }
 }

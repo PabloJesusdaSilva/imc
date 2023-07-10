@@ -9,6 +9,7 @@ calculateBtn.addEventListener('click', () => {
 	let result = document.createElement('p');
 	result.classList.add('result');
 	result.innerHTML = imc;
+	result.style.transition = 'ease-in-out 0.5s'
 	
 	let main = document.querySelector('#main');
 	
